@@ -10,3 +10,6 @@ docker run --rm -v $(pwd):/output zoilomora/domoticz-release-builder
 Licensed under the [Apache-2.0]
 
 Read [LICENSE] for more information
+
+[Apache-2.0]: https://opensource.org/licenses/Apache-2.0
+[LICENSE]: LICENSE
