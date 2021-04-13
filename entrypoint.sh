@@ -33,4 +33,5 @@ cp updatebeta ../release/
 cp updatebeta ../release/
 cp updaterelease ../release/
 
-tar czvf /output/domoticz-release.tar.gz /tmp/release/*
+cd /tmp/release
+tar czvf /output/domoticz-release.tar.gz *
