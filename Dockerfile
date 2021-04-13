@@ -45,6 +45,7 @@ RUN wget https://github.com/Kitware/CMake/releases/download/v3.20.1/cmake-3.20.1
 # Boost Libraries
 RUN wget https://dl.bintray.com/boostorg/release/1.75.0/source/boost_1_75_0.tar.gz && \
     tar xfz boost_1_75_0.tar.gz && \
+    rm boost_1_75_0.tar.gz && \
     cd boost_1_75_0/ && \
     ./bootstrap.sh && \
     ./b2 stage threading=multi link=static --with-thread --with-system && \
